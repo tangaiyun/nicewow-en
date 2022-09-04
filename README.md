@@ -117,7 +117,7 @@ exit
 ####  Trial and charge
 
 - You can try it for free for one week at least
-- long term use 2$/month, 19.9$/permanent 
+- long term use 2$/month, 19.9$/year 
 
 
 #### Disclaimer
