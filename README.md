@@ -8,6 +8,7 @@ A tool to WOW and SIMILAR ONLINE games more fun, especially for multi-boxing pla
 - Download the released version： [Release1.0.0 ](https://github.com/tangaiyun/nicewow-en/blob/main/AutoFollow-retail.zip)
 
 - Decompress the zip file to any folder, and the folder content structure is as follows:
+![image1](https://user-images.githubusercontent.com/7961235/188293687-ff516224-b5f9-4ff8-b3fb-23453f8bc614.png)
 
 
 
