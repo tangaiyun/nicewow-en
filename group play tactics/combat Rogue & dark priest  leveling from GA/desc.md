@@ -31,7 +31,8 @@
 ```
 
 盗贼键位布局图
-![输入图片说明](../../%E7%9B%97%E8%B4%BC%E9%94%AE%E4%BD%8D.jpg)
+![image](https://user-images.githubusercontent.com/7961235/188297647-2e59e405-236b-41cb-9dbd-13f9e8bc2410.png)
+
 
 盗贼只有5个键位放置了宏, J键，Q键放置是空宏（里面没有任务内容的宏）
 
@@ -97,8 +98,9 @@
 /af stop
 /f player
 ```
-暗牧键位布局图
-![输入图片说明](../../%E6%9A%97%E7%89%A7%E9%94%AE%E4%BD%8D.jpg)
+![image](https://user-images.githubusercontent.com/7961235/188297666-85eb5176-b44d-49fc-b5a3-80974de96df6.png)
+
+
 
 #### 典型打怪场景
 - 按照盗贼的节奏打，先111，星快满了按2，如果盗贼血少了按3，连着按3会先给盗贼盾后恢复，如果怪血濒死了，按Q键呼叫暗牧的灭
