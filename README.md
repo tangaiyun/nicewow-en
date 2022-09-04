@@ -73,7 +73,7 @@ to let the followers follow the leader again.
 - the key is defined in key.txt. The tool can be used normally only after the user gets the valid key and copies it to the key.txt
 - the original key.txt contains a trial key and it may expire
 - After getting the key from the admin and running the tool, the key will be bound to the current computer
-- 
+
 #### Key Multicasting Config --- keyclone.txt
 
 - The built-in sync supported keys of this tool is：` **A-Z,  0-9， SPACE，OEMMINUS，OEMPLUS, F1-F12** `
