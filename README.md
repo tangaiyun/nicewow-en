@@ -59,74 +59,60 @@ There are only two core macros, because the player mainly controls the leader ch
 - some classes such as mage or warlock, when they cast channel spells, then their following state will be lost, but this tool has enabled the followers to automatically follow the leader again in most cases. If the follower fails to follow the leader role in time under unexpected circumstances, you can press T 
 to let the followers follow the leader again.
 
-#### 近战组合额外配置，近战跟随者需要额外配置如下
-- ESC-界面-游戏-鼠标-点击移动（勾选）， 点击移动视角模式--总是调整视角
-- ESC-按键设置-选中目标-与目标互动-K 
-- 如果近战跟随者，离主控攻击的怪有距离，无法攻击到，玩家按一下K键，则近战跟随者会主动调整视角并靠近目标怪物攻击
+#### Additional config for melee follower
+- ESC- Interface - Games - Mouse - Click Move (checked), click Move View Mode - always adjust the view
+- ESC- Key Settings - Select Target - Interact with target -K
+- If the melee follower is far away from the monster which leader is attacking, the player should presses the K key, then the melee follower will actively adjust its perspective and move close  and attack the monster
 
-#### 玩家已开发的玩法样例
-- 每个玩家开发的样例占有一个目录，目录下至少有2个文件，一个是键位同步设置文件keyclone.txt,一个是md文件，描述了玩法角色的宏设定，键位宏绑定，以及一般的战斗过程描述。
-- [兽王猎+恶魔术组合](https://gitee.com/aiyuntang/nicewow/tree/master/%E7%8E%A9%E6%B3%95%E7%9B%AE%E5%BD%95/%E7%8C%8E%E4%BA%BA+%E6%9C%AF%E5%A3%AB%20From%20GA)
-- [战斗贼+暗牧组合](https://gitee.com/aiyuntang/nicewow/tree/master/%E7%8E%A9%E6%B3%95%E7%9B%AE%E5%BD%95/%E7%9B%97%E8%B4%BC+%E6%9A%97%E7%89%A7%20From%20GA)
+#### Some group play tactics 
+- each group play tactics has one dirctory. under the directory, There are at least 2 files in the directory, one is keyclone.txt file, and one is MD file, which describes the macro Settings, the key macro binding, and the general battle process description.
+- [beast mastery hunter & deamon warlock](https://github.com/tangaiyun/nicewow-en/tree/main/group%20play%20tactics/beast%20mastery%20hunter%20%26%20deamon%20warlock%20leveling%20from%20GA)
+- [combat Rogue & dark priest](https://github.com/tangaiyun/nicewow-en/tree/main/group%20play%20tactics/combat%20Rogue%20%26%20dark%20priest%20%20leveling%20from%20GA)
 
-#### 视频攻略
-- [自动跟随重生，nicewow让你多开体验重回巅峰](http://https://www.bilibili.com/video/BV1Pd4y1V7Aw)
-- [WLK如何愉快的玩耍,多开党的福利送到](https://www.bilibili.com/video/BV1de4y1a7iU/)
+#### Key Setting
+- the key is defined in key.txt. The tool can be used normally only after the user gets the valid key and copies it to the key.txt
+- the original key.txt contains a trial key and it may expire
+- After getting the key from the admin and running the tool, the key will be bound to the current computer
+- 
+#### Key Multicasting Config --- keyclone.txt
 
-- [正式服支持以及近战组合练级心得](https://www.bilibili.com/video/BV13P411V7eu/)
+- The built-in sync supported keys of this tool is：` **A-Z,  0-9， SPACE，OEMMINUS，OEMPLUS, F1-F12** `
 
-
-#### 软件密钥设置
-- 软件密钥定义在key.txt内，用户只有得到合法的密钥后并复制到key.txt内，本软件才能正常使用
-
-- key.txt初始内容为试用key，可能会过期
-
-- 从管理员得到key后，运行该软件后，key会跟当前电脑绑定
-
-#### 键位同步设置 keyclone.txt
-
-- 本软件内置可同步的键位为：` **A-Z(26个字母键),  0-9（10个数字键）， SPACE(空格键），OEMMINUS（减号），OEMPLUS（加号）, F1-F12(12个功能键）** `
-
-- 用户可自定义被同步的键位，打开keyclone.txt, 初始内容为： 
+- You can customize your keys to be synced by modifying the file keyclone.txt
+- Open the keyclone.txt, the original content should be ： 
 
 ```
-D0 D1 D2 D3 D4 D5 D6 D7 D8 D9 SPACE W E J Q T G Z X Y K H OEMMINUS OEMPLUS F1 F2
+D0 D1 D2 D3 D4 D5 D6 D7 D8 D9 SPACE W R U I E J Q T G Z X Y K H OEMMINUS OEMPLUS F1 F2 F3 F4
 ```
 
-  初始键位同步设定含义为： 数字键0-9，空格键，字母键 W E J Q T G Z X Y K H, 减号, 加号,F1,F2 这些键位会复制，其他键位会忽略 
+  it means： gigit keys 0-9, space bar, letter keys W R U I E J Q T G Z X Y K H, minus sign, plus sign,F1,F2,F3,F4 These keys would be synced, other keys will be ignored
 
-- 用户可自行增加或者减少里面定义的键位，但是增加的键位仅允许在本软件内置可同步的键位内。
-
-- 本软件仅会同步在keyclone.txt里定义的键位，其他未出现在keyclone.txt里的键位会被忽略
+- Users can add or reduce the keys defined in keyclone.txt, but the added keys are only allowed in the software built-in synchronized keys.
 
 
-#### 其他MMORPG网游支持（实验性，有效性有待玩家探索）
-- 多开网游客户端
-- 按CRL+ALT+DEL键，打开windows 任务管理器，选则详细信息Tab页，找到该网游客户端的进程，例如魔兽怀旧服的进程如图所示
-![输入图片说明](taskmanager.jpg)
-- 假设该网游的客户端的进程名称为 xyz.exe
-- 在软件目录下制作一个文本文件，xyz.txt,里面的内容如下
+#### other MMORPG game support（Experimental, effectiveness should be explored by players）
+- press CRL+ALT+DEL，open windows task manager，select detail Tab, to find the game process name, for wow classic, the name is WowClassic.exe
+- Assume that the process name of the online game is xyz.exe
+- Make a text file named as xyz.txt, which contains the following contents
 
 ```
 @echo off
 start NiceWow.exe xyz
 exit
 ```
-- 改变xyz.txt后缀名为bat，则软件文件目录结构类似
-![输入图片说明](xyz.jpg)
-- 多开玩游xyz，点击运行xyz.bat即可
+- If you change the file name of xyz.txt to xyz.bat
+- run xyz.bat
 
 
-#### 技术支持
-- 微信： zhuiyingderen
-- QQ： 15520929
+#### Technical support
+- Mail: aiyun.tang@gmail.com
+- Wechat： zhuiyingderen
 
-#### 开源合作
-- 欢迎各位爱好者提供玩法PR
-- 玩法PR请在目录 "玩法目录"里建立你自己的目录
-- 你自己的目录下至少包含2个文件，1个为keyclone.txt，描述了你要键位复制的配置，另外一个为md文件，描述键位上宏的设定，以及典型玩法描述
-- 如果你有更好的想法，请你体现在你的PR里，欢迎之至
-- 玩法PR review通过被收录，免费送月卡1张
+#### Open source cooperation
+- Welcome fans to provide group play PR
+- if you want to make a pull request, please create your directory under the folder 'group play tactics'
+- your own directory should contain at least two files: keyclon.txt, which describes waht keys you wants to sync, and desc.md, which describes the macro definition and key binding, talent etc.
+- ff you have a better idea, please represent it in your PR
 
 #### 软件试用和收费
 
