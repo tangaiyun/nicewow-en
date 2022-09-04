@@ -90,7 +90,7 @@ D0 D1 D2 D3 D4 D5 D6 D7 D8 D9 SPACE W R U I E J Q T G Z X Y K H OEMMINUS OEMPLUS
 - Users can add or reduce the keys defined in keyclone.txt, but the added keys are only allowed in the software built-in synchronized keys.
 
 
-#### other MMORPG game support（Experimental, effectiveness should be explored by players）
+#### Other MMORPG game support（Experimental, effectiveness should be explored by players）
 - press CRL+ALT+DEL，open windows task manager，select detail Tab, to find the game process name, for wow classic, the name is WowClassic.exe
 - Assume that the process name of the online game is xyz.exe
 - Make a text file named as xyz.txt, which contains the following contents
@@ -114,19 +114,22 @@ exit
 - your own directory should contain at least two files: keyclon.txt, which describes waht keys you wants to sync, and desc.md, which describes the macro definition and key binding, talent etc.
 - ff you have a better idea, please represent it in your PR
 
-#### 软件试用和收费
+####  Trial and charge
 
-- 下载后可免费试用一周
-- 长期使用月卡19.9元一张，支持5号同开，良心价格，童叟无欺
-- 朋友圈转发消息截图，再送1周 
-- 推荐一人购买一张月卡以上，送月卡一张
+- You can try it for free for one week at least
+- long term use 19.9$/m
 
 
-#### 免责申明
+#### Disclaimer
 
-- 本软件完全出于个人兴趣爱好，由本人在业余时间开发，是一款安全，绿色，可靠的软件产品
-- 本软件不会收集任何用户数据，使用时无任何网络通讯,欢迎任何专业人士验证
-- 利用本软件所做出的任何行为，和本人无关
-- 因使用本软件而引致的任何意外、疏忽、合约毁坏、诽谤、版权或知识产权侵犯及其所造成的任何损失，本人概不负责，亦概不承担任何民事或刑事法律责任
-- 当你第一次开始使用本人所提供的任何软件及资源的那一刻起就将被视为对本声明全部内容的认可。同时您必须认可上述免责条款，方可使用本软件及资源。如有任何异议，建议立刻删除本软件及资源并且停止使用
-- 以上内容，本人保留最终解释权
+- This software is completely out of personal interest, developed by me in my spare time, is a safe, green, reliable software product
+
+- This software will not collect any user data, there is no network communication when using, any professional verification is welcome
+
+- Any behavior made using this software has nothing to do with me
+
+- I shall not be liable for any accident, negligence, breach of contract, defamation, infringement of copyright or intellectual property rights, or any loss arising from the use of this Software, nor shall I be liable for any civil or criminal liability
+
+- The first time you start using any software and resources provided by me, you will be deemed to acknowledge the entire contents of this Statement. At the same time, you must agree to the above disclaimer before using the software and resources. If there is any objection, it is recommended to delete the software and resources immediately and stop using it
+
+- I reserve the right of final interpretation of the above contents
