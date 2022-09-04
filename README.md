@@ -12,51 +12,52 @@ A tool to WOW and SIMILAR ONLINE games more fun, especially for multi-boxing pla
 
 
 
-#### AutoFollow 插件安装
-- 怀旧服安装AutoFollow插件到"World of Warcraft/\_classic\_/Interface/AddOns"目录
-- 正式服安装AutoFollow插件到"World of Warcraft/\_retail\_/Interface/AddOns"目录
-- 怀旧服插件版本下载地址 [怀旧服适用版本](https://github.com/tangaiyun/nicewow-en/blob/main/AutoFollow-classic.zip)
-- 正式服插件版本下载地址 [正式服适用版本](https://github.com/tangaiyun/nicewow-en/blob/main/AutoFollow-retail.zip)
+#### AutoFollow addon installation
+- WOW classic put AutoFollow to the folder "World of Warcraft/\_classic\_/Interface/AddOns"
+- WOW retail put AutoFollow to the folder "World of Warcraft/\_retail\_/Interface/AddOns"
+- [classic version](https://github.com/tangaiyun/nicewow-en/blob/main/AutoFollow-classic.zip)
+- [retail version](https://github.com/tangaiyun/nicewow-en/blob/main/AutoFollow-retail.zip)
 
-#### 软件运行                            
-- 先多开运行游戏，本应用最多支持5开 
-- 游戏已运行后，运行本软件。如果是怀旧服，运行wowclassic.bat, 正式服运行wow.bat
+#### start                            
+- for classic wow，please run wowclassic.bat
+- for retail wow, please run wow.bat
 
-#### 启动后参数输入
-启动后，程序需要你输入三个参数
-- 请输入您的前进按键: 就是你魔兽里面人物前进的按键，大多数人应该都是W（不分大小写）
-- 请输入召集跟随按键,注意这个键位将绑定跟随宏: 这个键位对于跟随者来说，绑定是跟随宏，默认值是T（不分大小写）
-- 请输入停止跟随按键，注意这个键位将绑定停止跟随宏:这个键位对于跟随着来说，绑定是停止跟随宏，默认值是G（不分大小写）
-- 跟随宏和停止跟随宏如何设定，[请参考核心宏设定小节](#核心宏设置)
-- 一般的程序启动输入情况如图所示
-![输入图片说明](%E5%90%AF%E5%8A%A8.jpg)
+#### Parameters
+Once started, the program requires you to enter three parameters
+- Please input you key for moving forward, the default value is W: W
+- Please input your key for following, the default value is T: T
+- Please input your key for stopping following, the default value is G: G
+- Program startup input is shown as Figure
+![image](https://user-images.githubusercontent.com/7961235/188293912-0b2b2359-58ce-4602-9a83-4d46a07ccd43.png)
 
-#### 功能初步验证
-程序正常启动后，玩家操作主控角色，按一下空格键（Space），如果所有多开的角色都会同时起跳，说明键位同步功能已正常启用。
 
-#### 核心宏定义及宏键位绑定
+#### Preliminary functional verification
+After the program starts normally, the player can operate with the leader role wow window and press the Space bar. If all the wow characters jump at the same time, it means that the key synchronization function has been enabled normally.
 
-核心宏仅为二个, 因为玩家主要操作主控角色，那么所有跟随角色必须要做两个宏，即“跟随宏”和“停止跟随宏”
+#### Core macro definitions and key bingding
 
-- 跟随宏 （建议放置在跟随角色的T键位上）
+There are only two core macros, because the player mainly controls the leader character, so all the following characters must make two macros, namely "Follow macro" and "stop following macro".
+
+- Follow Macro （bind to Key 'T）
 ```
-/af 主控角色id
+/af leader's id
 ```
 
-- 停止跟随宏 （建议放在跟随角色的G键位上）
+- Stop Following Macro （bind to key 'G'）
 ```
 /af stop
 /f player
 ```
-#### 重要移动控制键位
-- DEL键，键位同步开关键，用户可通过按DEL来关闭/打开键位同步功能，在非游戏的时候，关闭键位同步是个不错的主意
-- 召集跟随键，默认是T，实际由用户启动时输入，命令所有跟随角色重新跟随主控角色的键位
-- 停止跟随键位， 默认是G，实际由用户启动时输入，命令所有跟随角色停留在原地
-- 主控前进键位，默认是W，实际由用户启动时输入，命令主控角色行走，插件也会根据此按键下按事件自动发送"召集跟随键"到所有跟随者客户端，命令所有跟随者重新跟随主控角色
+#### Important movement control key
+- 'DEL': turn on/off key synchronization by pressing DEL. It is a good idea to turn off key synchronization when you are not playing games
+- 'T' : press this key to let all follower characters to follow the leader character
+- 'G' : press this key let all all follower characters to stay where they are 
+- 'W' : player press this key to let the leader character to move forward, at the same time, this tool will send 'T' key press event to all followers automatically, then followers will follow the leader again 
 
-#### 协同行动
-- 玩家按一下T键，则跟随者会主动跟随主控角色。玩家按一下G键，则所有跟随者停留在原地。
-- 经过测试，术士法师等职业施放瞬发和读条技能，不会脱离跟随状态，但是如果施放通道魔法（吸取灵魂，奥术飞弹等），则会脱离跟随状态。目前插件已经在绝大多数情况下，可以让跟随者自动重新跟随主控角色行动，如果在意外的情况下，跟随者没有及时跟上，可按一下T，主动让跟随者重新跟随主控角色。
+#### Team movement
+- When the player presses the T button, all followers will follow the leader character. The player presses the G button, and all followers where they are
+- some classes such as mage or warlock, when they cast channel spells, then their following state will be lost, but this tool has enabled the followers to automatically follow the leader again in most cases. If the follower fails to follow the leader role in time under unexpected circumstances, you can press T 
+to let the followers follow the leader again.
 
 #### 近战组合额外配置，近战跟随者需要额外配置如下
 - ESC-界面-游戏-鼠标-点击移动（勾选）， 点击移动视角模式--总是调整视角
