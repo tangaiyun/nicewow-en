@@ -1,20 +1,21 @@
 # Nicewow
 
-#### 介绍
-一个让魔兽世界以及类似网游多开玩法更有趣的应用，以及探险指南
+#### Introduce
+A tool to WOW and SIMILAR ONLINE games more fun, especially for multi-boxing players
 
-#### 安装教程
+#### Installation
 
-- 下载发布的版本： [正式版1.0.0 ](https://gitee.com/aiyuntang/nicewow/raw/master/NiceWow1.0.0.zip)
+- Download the released version： [Release1.0.0 ](https://github.com/tangaiyun/nicewow-en/blob/main/AutoFollow-retail.zip)
 
-- 解压缩到任意文件夹，解压后文件夹内容结构如下：
-![输入图片说明](image1.png)
+- Decompress the zip file to any folder, and the folder content structure is as follows:
+
+
 
 #### AutoFollow 插件安装
 - 怀旧服安装AutoFollow插件到"World of Warcraft/\_classic\_/Interface/AddOns"目录
 - 正式服安装AutoFollow插件到"World of Warcraft/\_retail\_/Interface/AddOns"目录
-- 怀旧服插件版本下载地址 [怀旧服适用版本](https://gitee.com/aiyuntang/nicewow/raw/master/AutoFollow-%E6%80%80%E6%97%A7%E6%9C%8D.zip)
-- 正式服插件版本下载地址 [正式服适用版本](https://gitee.com/aiyuntang/nicewow/raw/master/AutoFollow-%E6%AD%A3%E5%BC%8F%E6%9C%8D.zip)
+- 怀旧服插件版本下载地址 [怀旧服适用版本](https://github.com/tangaiyun/nicewow-en/blob/main/AutoFollow-classic.zip)
+- 正式服插件版本下载地址 [正式服适用版本](https://github.com/tangaiyun/nicewow-en/blob/main/AutoFollow-retail.zip)
 
 #### 软件运行                            
 - 先多开运行游戏，本应用最多支持5开 
