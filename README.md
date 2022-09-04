@@ -112,7 +112,7 @@ exit
 - Welcome fans to provide group play PR
 - if you want to make a pull request, please create your directory under the folder 'group play tactics'
 - your own directory should contain at least two files: keyclon.txt, which describes waht keys you wants to sync, and desc.md, which describes the macro definition and key binding, talent etc.
-- ff you have a better idea, please represent it in your PR
+- if you have a better idea, please represent it in your PR
 
 ####  Trial and charge
 
