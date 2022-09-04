@@ -100,7 +100,7 @@ D0 D1 D2 D3 D4 D5 D6 D7 D8 D9 SPACE W R U I E J Q T G Z X Y K H OEMMINUS OEMPLUS
 start NiceWow.exe xyz
 exit
 ```
-- If you change the file name of xyz.txt to xyz.bat
+- change the file name of xyz.txt to xyz.bat
 - run xyz.bat
 
 
