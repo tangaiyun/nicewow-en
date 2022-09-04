@@ -55,7 +55,7 @@ There are only two core macros, because the player mainly controls the leader ch
 - 'W' : player press this key to let the leader character to move forward, at the same time, this tool will send 'T' key press event to all followers automatically, then followers will follow the leader again 
 
 #### Team movement
-- When the player presses the T button, all followers will follow the leader character. The player presses the G button, and all followers where they are
+- When the player presses the T button, all followers will follow the leader character. The player presses the G button, and all followers stay where they are
 - some classes such as mage or warlock, when they cast channel spells, then their following state will be lost, but this tool has enabled the followers to automatically follow the leader again in most cases. If the follower fails to follow the leader role in time under unexpected circumstances, you can press T 
 to let the followers follow the leader again.
 
