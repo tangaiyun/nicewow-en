@@ -92,14 +92,14 @@
 ```
 /af macy
 ```
-术士G键位宏
+暗牧G键位宏
 
 ```
 /af stop
 /f player
 ```
+暗牧键位布局图
 ![image](https://user-images.githubusercontent.com/7961235/188297666-85eb5176-b44d-49fc-b5a3-80974de96df6.png)
-
 
 
 #### 典型打怪场景
