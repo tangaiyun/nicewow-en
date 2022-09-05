@@ -90,7 +90,7 @@ to let the followers follow the leader again.
 D0 D1 D2 D3 D4 D5 D6 D7 D8 D9 SPACE W R U I E J Q T G Z X Y K H OEMMINUS OEMPLUS F1 F2 F3 F4
 ```
 
-  it means： digit keys 0-9, space bar, letter keys W R U I E J Q T G Z X Y K H, minus sign, plus sign,F1,F2,F3,F4 These keys w be synced, other keys will be ignored
+  it means： digit keys 0-9, space bar, letter keys W R U I E J Q T G Z X Y K H, minus sign, plus sign,F1,F2,F3,F4 These keys will be synced, other keys will be ignored
 
 - Users can add or reduce the keys defined in keyclone.txt, but the added keys are only allowed in the software built-in synchronized keys.
 
