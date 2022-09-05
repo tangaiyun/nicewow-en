@@ -1,7 +1,9 @@
 # Nicewow
 
 #### Introduce
-A tool to WOW and SIMILAR ONLINE games more fun, especially for multi-boxing players
+A tool to make WOW more fun, especially for multi-boxing players. Because Blizzard has broken the FollowUnit API, so many
+addons which support "auto follow" can't work as design,such as [autofollow](https://www.curseforge.com/wow/addons/autofollow).
+
 
 #### Installation
 
