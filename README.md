@@ -4,7 +4,7 @@
 A tool to make WOW more fun, especially for multi-boxing players. Because Blizzard has broken the FollowUnit API, so many
 addons which support "auto follow" function can't work as design,such as [autofollow](https://www.curseforge.com/wow/addons/autofollow),
 [FollowMePls](https://www.curseforge.com/wow/addons/followmepls-auto-follow-addon). This tool not only provides the basic key multicasting function,
-but also repaires the broken "autofollow" function. Of course, to achieve the goal depends on [autofollow](https://www.curseforge.com/wow/addons/autofollow) addon, in addition we need to set up two simple macro and bind them on two keys.
+but also repaires the broken "autofollow" function. Of course, to achieve the goal depends on [autofollow](https://www.curseforge.com/wow/addons/autofollow) addon, in addition we need to set up two simple macros and bind them on two keys.
 
 
 
