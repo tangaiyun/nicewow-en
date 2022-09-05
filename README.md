@@ -1,7 +1,7 @@
 # Nicewow
 
 #### Introduce
-An easy to use and powerful tool make WOW multi-boxing players more enjoyable. Because Blizzard has banned the FollowUnit API, so many
+An easy to use and powerful tool make WOW multi-boxing players more enjoyable. Because [Blizzard has banned the FollowUnit API](https://us.forums.blizzard.com/en/wow/t/classic-addons-still-able-to-execute-remote-follow-commands/1291810) , so many
 addons which support "auto follow" function can't work as design,such as [autofollow](https://www.curseforge.com/wow/addons/autofollow),
 [FollowMePls](https://www.curseforge.com/wow/addons/followmepls-auto-follow-addon). This tool not only provides the basic key multicasting function,
 but also repaires the broken "autofollow" function. Of course, to achieve the goal depends on [autofollow](https://www.curseforge.com/wow/addons/autofollow) addon, in addition we need to set up two simple macros and bind them on two keys.
