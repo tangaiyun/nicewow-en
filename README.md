@@ -45,7 +45,7 @@ There are only two core macros, because the player mainly controls the leader ch
 
 - Follow Macro （bind to Key 'T）
 ```
-/af leader's id
+/f leader's id
 ```
 
 - Stop Following Macro （bind to key 'G'）
@@ -53,6 +53,7 @@ There are only two core macros, because the player mainly controls the leader ch
 /af stop
 /f player
 ```
+you can see the upper macro contains af command which comes from AutoFollow addon, so AutoFollow addon is mandatory.
 #### Important movement control key
 - 'DEL': turn on/off key synchronization by pressing DEL. It is a good idea to turn off key synchronization when you are not playing games
 - 'T' : press this key to let all follower characters to follow the leader character
@@ -66,8 +67,8 @@ to let the followers follow the leader again.
 
 #### Additional config for melee follower
 - ESC- Interface - Games - Mouse - Click Move (checked), click Move View Mode - always adjust the view
-- ESC- Key Settings - Select Target - Interact with target -K
-- If the melee follower is far away from the monster which leader is attacking, the player should presses the K key, then the melee follower will actively adjust its perspective and move close  and attack the monster
+- ESC- Key Settings - Select Target - Interact with target - E (strongly recommend to set the key to E, because E key is very handy!)
+- If the melee follower is far away from the monster which leader is attacking, the player should presses the E key, then the melee follower will actively adjust its perspective and move close and attack the monster
 
 #### Some group play tactics 
 - each group play tactics has one dirctory. under the directory, There are at least 2 files in the directory, one is keyclone.txt file, and one is MD file, which describes the macro Settings, the key macro binding, and the general battle process description.
