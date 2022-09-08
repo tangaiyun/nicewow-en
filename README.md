@@ -30,10 +30,12 @@ but also repaired the broken "autofollow" function. Of course, to achieve the go
 #### Parameters
 Once started, the program requires you to enter three parameters
 - Please input you key for moving forward, the default value is W: W
+- Please input your key to turn left, the default value is A: A
+- Please input your key to turn right, the default value is D: D
 - Please input your key for following, the default value is T: T
 - Please input your key for stopping following, the default value is G: G
 - Program startup input is shown as Figure
-![image](https://user-images.githubusercontent.com/7961235/188293912-0b2b2359-58ce-4602-9a83-4d46a07ccd43.png)
+- ![image](https://user-images.githubusercontent.com/7961235/189019899-a1751f34-e9b2-4542-b0d7-5919fa6e2f41.png)
 
 
 #### Preliminary functional verification
