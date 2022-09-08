@@ -1,0 +1,1 @@
+1 .fix problem press SPACE key due to miss follow state when at fly  
