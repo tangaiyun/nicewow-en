@@ -35,8 +35,7 @@ Once started, the program requires you to enter three parameters
 - Please input your key for following, the default value is T: T
 - Please input your key for stopping following, the default value is G: G
 - Program startup input is shown as Figure
-![image](https://user-images.githubusercontent.com/7961235/189019899-a1751f34-e9b2-4542-b0d7-5919fa6e2f41.png)
-
+![image](https://user-images.githubusercontent.com/7961235/189020093-9455847e-3d97-4878-8a24-e6c31d579ee5.png)
 
 #### Preliminary functional verification
 After the program starts normally, the player can operate with the leader role wow window and press the Space bar. If all the wow characters jump at the same time, it means that the key synchronization function has been enabled normally.
