@@ -83,7 +83,7 @@ to let the followers follow the leader again.
 
 #### Key Multicasting Config --- keyclone.txt
 
-- The built-in sync supported keys of this tool is：` **A-Z,  0-9， SPACE，OEMMINUS，OEMPLUS, F1-F12** `
+- The built-in sync supported keys of this tool is：` **A-Z,  0-9， SPACE，OEMMINUS，OEMPLUS, F1-F10（except for F11,F12)** `
 
 - You can customize your keys to be synced by modifying the file keyclone.txt
 - Open the keyclone.txt, the original content should be ： 
